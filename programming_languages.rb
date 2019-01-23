@@ -2,7 +2,7 @@ def reformat_languages(languages)
   output_hash = {}
   languages.each do |oo_or_func, languages_hash|
     languages_hash.each do |lang_name, type_hash|
-      type_string = type_hash.values
+      type_string = type_hash.values[0]
       style_array = []
       style_array << oo_or_func
       output_hash[lang_name] = {}
