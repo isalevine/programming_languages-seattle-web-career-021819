@@ -8,4 +8,5 @@ def reformat_languages(languages)
       output_hash[lang_name][:style] = oo_or_func
     end
   end
+  output_hash
 end
